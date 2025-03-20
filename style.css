@@ -1,0 +1,57 @@
+/* Global styles */
+body {
+    font-family: Times new roman, sans-serif;
+    background-color: coral;
+    margin: 0;
+    padding: 10px;
+}
+
+/* Header */
+header {
+    background-color: lightskyblue;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: sans-serif;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Content */
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: black;
+    color: coral;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
